@@ -284,6 +284,12 @@ hr {
   margin: 0 0 20px;
 }
 
+hr.style13 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
 footer {
   width: 640px;
   margin: 0 auto;
@@ -353,4 +359,14 @@ footer p + p {
   header p.view a small:before {
     content: 'at https://github.com/';
   }
+}
+
+.project {
+  position: relative;
+  float: center;
+  width: 400px;
+  height: 300px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
