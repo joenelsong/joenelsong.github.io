@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Joenelsong</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"> <i class="fa fa-github-square" aria-hidden="true"></i> Joenelsong</a>
+
+      </div>
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+    <div class="container">
+      <div class="jumbotron">
+        <h1> <i class="fa fa-github-square" aria-hidden="true"></i>
+        Open Source Portfolio
+        </h1>
+        <p> This is the open source portfolio of Joey Nelson. Feel free to contact me at www.joeynelson.net</p>
+    </div>
+
+<!--
+LIST OF PROJECTS
+-->
+
+<!-- DATA SCIENCE -->
+    <h2> Data Science </h2>
+    <hr>
+    <div class="row">
+ 
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\automated_dj_database.jpg">
+          <h3> <a href="https://github.com/joenelsong/WCS-DJ-Database">Automated DJ Database</a></h3>
+          <h4>MySQL, PHP, Python</h4>
+          <p>This is a is a web app that scrapes online radio stations for meta data on tracks they play. It also allows users to submit their own set lists to the database.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\bitcoin_trading_bot.png">
+          <h3> <a href="https://bitbucket.org/joenelsong/cryptocurtradebot4btce">Bitcoin Trading Bot</a></h3>
+          <h4>Python, Btc-e Web APIs</h4>
+          <p>This program can read in data from the btc-e market place and analyze it to implement a trading strategy. The bot will automatically buy and sell based on the user specificied trading strategy.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+        <img class="project" src="images\projects\classification.jpg">
+          <h3> Machine Learning Algorithm Implementations</h3>
+          <h4>Python</h4>
+          <p> I have implemented the following algorithms in Python 3. My primary resources were from http://ciml.info.
+          <ul>
+            <li> <a href="https://github.com/joenelsong/ML--Perceptron-Algorithm">Perceptron </a></li>
+            <li> <a href="https://github.com/joenelsong/ML--Aprior-Algorithm">Apriori </a></li>
+            <li> <a href="https://github.com/joenelsong/ML--ID3-Decision-Tree-Algorithm">ID3 Decision Tree </a></li>
+            <li> <a href="https://github.com/joenelsong/ML--Naive-Bayes-Algorithm">Naive Bayes </a> </li>
+            <li> <a href="https://github.com/joenelsong/ML--Logistic-Regression-Algorithm">Logistics Regression </a></li>
+          </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\data_fest.jpg">
+          <h3> <a href="https://github.com/joenelsong/#">Ticket Master Customer Clustering</a></h3>
+          <h4>Python</h4>
+          <p>I organized a team to work on solving Ticket Master's data problems for a data hackathon (Data Fest 2015). One of the analysis paths that I lead was to try and identify the customer segements of Ticket Master. Dimensions were reduced to 3 labels, K-means clustering was applied and the data segementation was visualized. </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\twitter_technology_miner.jpg">
+          <h3> <a href="https://github.com/joenelsong/TwitterWordMining">Twitter Technology Miner</a></h3>
+          <h4>Python, Twitter API, Sqlite3</h4>
+          <p>Mines Twitter for technology terms and outputs a summary of basics statistics and sentiment analysis for each term</p>
+        </div>
+      </div>
+
+    </div> <!-- End DATA SCIENCE Row -->
+
+     <!-- Minor Projects... not sure where to place these yet
+      1. Biometric Data Summary in R
+      2. Caching Matrix Calculations in R
+      -->
+
+    
+
+    <h2> Visualization </h2>
+    <hr>
+    <div class="row">
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\image_processing_pipeline.png">
+          <h3>Image Processing Pipeline</h3>
+          <h4>C/C++, 60+ test cases</h4>
+          <p>A pipeline for processing images through a customizable series of filters, much like VTK.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\3d_isosurfacing.png">
+          <h3> <a href="https://github.com/joenelsong/SciVis--3D-Isosurfacing">3D Isosurfacing</a></h3>
+          <h4>C++, VTK</h4>
+          <p>Here I implemented a 3D isosurfacing algorithm for use on a 3D rectilinear mesh and visualized it using VTK. The most chalenging algorithms for this was tri-linear interpolation</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\2d_isosurfacing.png">
+          <h3> <a href="https://github.com/joenelsong/SciVis--2D-Isosurfacing">2D Isosurfacing</a></h3>
+          <h4>C++, VTK</h4>
+          <p>Here I implemented a 2D isosurfacing algorithm for use on a 2D rectilinear mesh and visualized it using VTK. The most chalenging algorithms for this was bi-linear interpolation</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\vtk_rendering.png">
+          <h3> <a href="https://github.com/joenelsong/TwitterWordMining">VTK Plot Rendering</a></h3>
+          <h4>C++, VTK</h4>
+          <p>Here I wrote a VTK program that renders and displays the input as the following vtk plots.
+            <ul>
+              <li>Isosurface</li>
+              <li>Rainbow Color Map</li>
+              <li>Hedgehog Glyphs</li>
+              <li>Streamlines</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\color_maps.jpg">
+          <h3> <a href="https://github.com/joenelsong/SciVis--Color-Maps">Color Maps</a></h3>
+          <h4>C++</h4>
+          <p>Implementation for 3 different color(Bluehot, Difference, HSV) maps which are used here to visualize a VTK Rectilinear Grid</p>
+        </div>
+      </div>
+
+    </div><!-- End VISUALIZATION Row -->
+
+    
+    <!-- GAMES -->
+
+    <h2> Games </h2>
+    <hr>
+    <div class="row">
+
+     <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img class="project" src="images\projects\virtual_dance_tutor.jpg">
+          <h3>VR Dance Trainer</h3>
+          <h4>Unity3D, C#, Myo sensors, Occulus Rift</h4>
+          <p>A virtual reality dance studio where your foot steps are tracked by the Myo sensors (using their gyroscope sensors) on each foot. Players are awarded points for demonstrating correct footwork, as well as given visual feedback of their character moving when they correctly step. This game is more of a prototype and was made in 48 hours at a hackathon (Quack Hack 2016)</p>
+        </div>
+      </div>
+     <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="images\projects\twitter_technology_miner.jpg">
+          <h3><a href="https://github.com/joenelsong/android_PigGame">Pig Dice Game</a></h3>
+          <h4>Android Studio, Java</h4>
+          <p>This is an android game played on a shared screen. It is a game of probabilities where 2 players compete head to head rolling dice to try and reach a certain score first. If you roll a 1 you lose your turn all points accumulated that turn, if you roll any other number add that to your turn score, end your turn whenever you wish by passing the dice instead of rolling. There are many variable options thatn be be used to tweak the rules of the game which lead to different strategies.</p>
+        </div>
+      </div>
+       <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="images\projects\twitter_technology_miner.jpg">
+          <h3>Blackjack (21)</h3>
+          <h4>Python, Tkinter</h4>
+          <p>Mines Twitter for technology terms and outputs a summary of basics statistics and sentiment analysis for each term</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <img src="images\projects\twitter_technology_miner.jpg">
+          <h3><a href="https://github.com/joenelsong/Java_nBackGame">N-Back Cognitive Memory Trainer</a></h3>
+          <h4>Java</h4>
+          <p>This game allows you train your working memory. You can load custom stimuli to specifically train the type of stimuli what you would like to get better at remembering. For more information on the <a href="https://en.wikipedia.org/wiki/N-back">n-back paradigm, check out this wikipedia lin </a></p>
+        </div>
+      </div>
+
+      </div> <!-- End GAMES Row -->
+
+    <h2> Apps </h2>
+    <hr>
+    <div class="row">
+    </div> <!-- End Apps Row -->
+        
+     
+    </div> <!-- <div class="container"> -->
+    <footer>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.35/js/bootstrap.min.js"></script>
+  </body>
+</html>
